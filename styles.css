@@ -1,0 +1,208 @@
+/* navbar */
+
+nav {
+	background-color: dodgerblue;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.tabs {
+	margin-bottom: -15px !important;
+}
+
+.nav-tabs :hover {
+	background-color: none;
+	border-color: none;
+}
+
+.nav-tabs li:hover a {
+	border: none;
+	background: none;
+	color: none;
+}
+
+.page {
+	color: white;
+}
+
+.page:hover {
+	color: white;
+}
+
+.search-1 {
+	float: left;
+}
+
+.basic-2 {
+	float: right;
+}
+
+.details-2 {
+	float: left;
+}
+
+
+/* country */
+
+.con {
+	margin-left: 183px;
+}
+
+.country {
+	margin-left: 6%;
+	color: darkblue;
+}
+
+#uk {
+	color: lightskyblue;
+}
+
+#roi {
+	color: orange;
+}
+
+.sep {
+	margin: 0%;
+}
+
+.specs-1 {
+	float: left;
+}
+
+.ip1 {
+	width: 10%;
+}
+
+
+/* weight */
+
+.weight-2 {
+	float: right;
+	width: 251px;
+}
+
+.buttons {
+	background-color: white;
+}
+
+
+/* table */
+
+.img {
+	margin-left: -15px;
+}
+
+@media screen and (min-width: 425px) {
+	.sem {
+		margin-left: 2%;
+	}
+}
+
+@media screen and (min-width: 996px) {
+	.log {
+		text-align: right;
+	}
+}
+
+@media (min-width: 1441px) {
+	.log {
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.info {
+		width: 41%;
+		margin-bottom: 5px;
+	}
+}
+
+
+/* table */
+
+#fixed {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background: #fff;
+}
+
+.wrapper {
+	overflow: auto;
+	height: 500px;
+}
+
+.wrapper thead th {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.table td:nth-child(2) {
+	text-align: right;
+}
+
+.wrapper {
+	position: relative;
+	overflow: auto;
+	white-space: nowrap;
+	margin-left: 2px;
+}
+
+thead th {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+tbody th {
+	position: -webkit-sticky;
+	position: sticky;
+	left: 0;
+	overflow: scroll;
+}
+
+
+/* To have the header in the first column stick to the left: */
+
+thead th:first-child {
+	left: 0;
+	z-index: 2;
+}
+
+th:first-child,
+td:first-child {
+	position: sticky;
+	left: 0px;
+	background-color: lightgrey;
+}
+
+
+/* Just to display it nicely: */
+
+thead th {
+	background: lightgrey;
+	z-index: 1;
+}
+
+tbody th {
+	background: #fff;
+	border-right: 1px solid #ccc;
+	box-shadow: 1px 0 0 0 #ccc;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td,
+th {
+	padding: 0.5em;
+}
+
+.first-col {
+	background-color: lightgrey;
+}

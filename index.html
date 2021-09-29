@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Title</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="styles.css">
+      <!-- Bootstrap CSS -->
+      <!-- CSS only -->
+      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">   -->
+      <!-- JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   </head>
+   <body>
+      <header class="sticky-top">
+         <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+               <a class="navbar-brand pl-1" href="#">
+               <img src="img/1.png" class="img" alt="..." height="20" />
+               </a>
+               <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav nav-tabs tabs ms-auto">
+                     <li class="nav-item">
+                        <a class="nav-link page" href="#">Vendor</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Article</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="#">Order Req</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="#">Pos</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="#">Photo Quotes</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="#">Shipments</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="#">Admin</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="#">Report</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="#">CE Orders</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="buttons col-sm-12">
+            <button class="ml-1 mb-3 mt-3">
+            <i class="fas fa-arrow-left"></i>
+            </button>
+            <button type="button" class="btn-sm rounded btn-light ml-3">
+            Edit
+            </button>
+            <button type="button" class="btn-sm rounded btn-success ml-4">
+            Proceed to Stock & Intake Plan
+            </button>
+         </div>
+         <div class="container-fluid">
+            <div class="row pt-1 bg-secondary text-white">
+               <div class="col-md-12 col-sm-12 col-xs-12 col-lg-10 mt-2 mb-2">
+                  <span class=""> Articles </span>
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/long-arrow-right.png" />
+                  <b><u> Ryan's World Mystery Spy Vault(187401)</u> </b>
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/long-arrow-right.png" />
+                  <u>LANARD TOYS LTD(10639)</u>
+               </div>
+               <div class="col-md-12 col-lg-2 col-sm-12 col-xs-12 mt-2 log">
+                  <label class="">£ -- $:1.2686, £-- €:1.0966</label>
+               </div>
+            </div>
+         </div>
+      </header>
+      <br />
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12 col-lg-10 col-sm-12 col-xs-12 col-md-12 col-xl-10">
+               <input type="search" class="search-box col-6 rounded" placeholder="Ryan's World Mystery Spy Vault" />
+               <button class="info ">General Info</button>
+               <button class="info ">Additional Info</button>
+               <button class="info">Tech.Specs</button>
+               <label class="text-primary ">Notes(0)</label>
+            </div>
+            <div class="col-lg-2 col-xl-2 log">
+               <i class="far fa-clock"></i>
+               <span class=""> Activity log</span>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+               <div class="basic-1">
+                  <b>Basic Information</b><br />
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-7 col-sm-6 col-md-6 col-lg-6 col-form-label">Symths Article Number</label>
+                     <div class="col-5 col-sm-6 col-md-6 col-lg-6">
+                        <label type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com"> 187401</label>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-7 col-sm-6 col-md-6 col-lg-6 col-form-label">Vendor Article Number</label>
+                     <div class=" col-5 col-sm-6 col-md-6 col-lg-6">
+                        <label type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com"> 79260</label>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-7 col-sm-6 col-md-6 col-lg-6 col-form-label">Merchendise category</label>
+                     <div class="col-5 col-sm-6 col-md-6 col-lg-6">
+                        <label type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">1025</label>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-7 col-sm-6 col-md-6 col-lg-6 col-form-label">Article category</label>
+                     <div class="col-5 col-sm-6 col-md-6 col-lg-6">
+                        <label type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com"> solid</label>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-7 col-sm-6 col-md-6 col-lg-6 col-form-label">product Barcode(ea)</label>
+                     <div class="col-5 col-sm-6 col-md-6 col-lg-6">
+                        <label type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com"> 0881644799410</label>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-7 col-sm-6 col-md-6 col-lg-6 col-form-label">carton Barcode</label>
+                     <div class="col-5 col-sm-6 col-md-6 col-lg-6">
+                        <label type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com"> 5701600009488</label>
+                     </div>
+                  </div>
+                  <br />
+                  <br />
+                  <div class="">
+                     <label for=""><b>Specifications</b></label>
+                     <div class="mb-2 row">
+                        <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label"> Assembly Required</label>
+                        <div class="col-6 col-sm-4 col-lg-6 col-md-6 form-check">
+                           <input type="radio" checked/>
+                           <label for="Yes">Yes</label>
+                           <input type="radio" />
+                           <label for="no">No</label>
+                        </div>
+                     </div>
+                     <div class="mb-2 row">
+                        <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">Assembled Size</label>
+                        <div class="col-6 col-sm-8 col-lg-6 col-md-6">
+                           <input class="ip1" disabled placeholder="-" />
+                           <input class="ip1" disabled placeholder="-" />
+                           <input class="ip1" disabled placeholder="-" /> Cms
+                        </div>
+                     </div>
+                     <div class="mb-2 row">
+                        <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">Unassembled Size</label>
+                        <div class="col-6 col-sm-8 col-lg-6 col-md-6">
+                           <input class="ip1" disabled placeholder="-" />
+                           <input class="ip1" disabled placeholder="-" />
+                           <input class="ip1" disabled placeholder="-" /> Cms
+                        </div>
+                     </div>
+                     <br />
+                     <br />
+                     <div class="specs-2">
+                        <b>Other information</b><br />
+                        <div class="mb-2 row">
+                           <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">Reporting Block</label>
+                           <div class="col-6 col-sm-8 col-lg-6 col-md-6">
+                              <label for="">-</label>
+                           </div>
+                        </div>
+                        <div class="mb-2 row">
+                           <label for="staticEmail" class="col-6 col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">X-site Status</label>
+                           <div class="col-6 col-6 col-sm-3 col-md-4 col-lg-6">
+                              <input readonly class="form-control input-sm" id="staticEmail" placeholder="-" value="-" />
+                           </div>
+                        </div>
+                        <div class="mb-2 row">
+                           <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">X-site Status Date</label>
+                           <div class="col-6 col-sm-3 col-lg-6 col-md-4">
+                              <input readonly class="form-control input-sm" id="staticEmail" placeholder="-" value="-" />
+                           </div>
+                        </div>
+                        <div class="mb-2 row">
+                           <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">X-dchain Status</label>
+                           <div class="col-6 col-sm-3 col-lg-6 col-md-4">
+                              <input readonly class="form-control input-sm" id="staticEmail" placeholder="-" value="-" />
+                           </div>
+                        </div>
+                        <div class="mb-2 row">
+                           <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">X-dchain Status Date</label>
+                           <div class="col-6 col-sm-3 col-lg-6 col-md-4">
+                              <input readonly class="form-control input-sm" id="staticEmail" placeholder="-" value="-" />
+                           </div>
+                        </div>
+                        <div class="mb-2 row">
+                           <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">Smyths Exclusive</label>
+                           <div class="col-6 col-sm-8 col-md-4 col-lg-6">
+                              <input type="radio" id="html" value="Yes" checked />
+                              <label for="Yes">Yes</label>
+                              <input type="radio" id="css" value="No" />
+                              <label for="no">No</label>
+                           </div>
+                        </div>
+                        <div class="mb-2 row">
+                           <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">Catalog Summer</label>
+                           <div class="col-6 col-sm-3 col-md-4 col-lg-6">
+                              <input readonly class="form-control input-sm" id="staticEmail" placeholder="" value="-" />
+                           </div>
+                        </div>
+                        <div class="mb-2 row">
+                           <label for="staticEmail" class="col-6 col-sm-4 col-md-6 col-lg-6 col-form-label">Catalog Winter</label>
+                           <div class="col-6 col-sm-3 col-md-4 col-lg-6">
+                              <input readonly class="form-control input-sm" id="staticEmail" placeholder="" value="-" />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+               <div class="">
+                  <div class="container-fluid">
+                     <div class="mb-2 row">
+                        <label for="staticEmail" class="col-0  col-md-2 col-lg-2 col-form-label"></label>
+                        <label for="" class="col-md-2 col-lg-2"></label>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 d-flex  justify-content-between">
+                           <div class="col-1 ">
+                              <label for="" id="uk"> UK </label>
+                           </div>
+                           <div class="col-1 ">
+                              <label for="" id="roi"> ROI </label>
+                           </div>
+                           <div class="col-1">
+                              <label for="">DE </label>
+                           </div>
+                           <div class="col-1 ">
+                              <label for=""> AT </label>
+                           </div>
+                           <div class="col-1 ">
+                              <label for=""> CH </label><br />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-sm-12 col-md-4 col-lg-4 col-form-label">Assort.Grade code</label>
+                     <div class="col-sm-12 col-md-8 col-lg-8 d-flex justify-content-between">
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">Z1-c</option>
+                           </select>
+                        </div>
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">Z1-c</option>
+                           </select>
+                        </div>
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">Z1-c</option>
+                           </select>
+                        </div>
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">Z1-c</option>
+                           </select>
+                        </div>
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">Z1-c</option>
+                           </select>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-sm-12 col-md-4 col-lg-4 col-form-label">Tax Code</label>
+                     <div class="col-sm-12 col-md-8 col-lg-8 d-flex justify-content-between">
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">G-Lia</option>
+                           </select>
+                        </div>
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">G-Lia</option>
+                           </select>
+                        </div>
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">G-Lia</option>
+                           </select>
+                        </div>
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">G-Lia</option>
+                           </select>
+                        </div>
+                        <div class="col-2">
+                           <select name="cars" class="" id="cars" disabled class="">
+                              <option value="volvo">G-Lia</option>
+                           </select>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-sm-12 col-md-4 col-lg-4 col-form-label">VAT %</label>
+                     <div class="col-sm-12 col-md-8 col-lg-8 d-flex justify-content-between">
+                        <div class="col-2">20%</div>
+                        <div class="col-2">23%</div>
+                        <div class="col-2">23%</div>
+                        <div class="col-2">23%</div>
+                        <div class="col-2">23%</div>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-4 col-sm-12 col-md-4 col-lg-4 col-form-label">Comm.Code</label>
+                     <div class="col-6 col-sm-12 col-lg-8 col-md-8">
+                        <div class="col-2">
+                           <select name="cars" id="cars" disabled class="select-3">
+                              <option value="volvo">1234567890-Stuffes-T..</option>
+                           </select>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-sm-12 col-md-4 col-lg-4 col-form-label">Duty</label>
+                     <div class="col-sm-12 col-md-8 col-lg-8 d-flex justify-content-between">
+                        <span class="country-1 col-2"> - </span>
+                        <span class="country-1 col-2"> - </span>
+                        <span class="country-1 col-2"> - </span>
+                        <span class="country-1 col-2"> - </span>
+                        <span class="country-1 col-2"> - </span>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-sm-12 col-md-4 col-lg-4 col-form-label">Prefrential Rate</label>
+                     <div class="col-sm-12 col-md-8 col-lg-8 d-flex justify-content-between">
+                        <span class="country-1 col-2"> - </span>
+                        <span class="country-1 col-2"> - </span>
+                        <span class="country-1 col-2"> - </span>
+                        <span class="country-1 col-2"> - </span>
+                        <span class="country-1 col-2"> - </span>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-5 col-sm-12 col-md-4 col-lg-4 col-form-label">Rounding Profile</label>
+                     <div class="col-6 col-sm-12 col-md-8 col-lg-8">
+                        <div class="col-2">
+                           <input type="text" disabled placeholder="Always up to" />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="mb-1 row">
+                     <label for="staticEmail" class="col-5 col-sm-12 col-md-4 col-lg-4 col-form-label">Rounding Value</label>
+                     <div class="col-5 col-sm-12 col-md-8 col-lg-8">
+                        <div class="col-2">
+                           <input type="text" disabled placeholder="-" />
+                        </div>
+                     </div>
+                  </div>
+                  <br />
+                  <br />
+                  <div class="weight-1">
+                     <label for=""><b>Weight & Dimensions</b></label><br />
+                     <div class="mb-1 row">
+                        <label for="staticEmail" class="col-6 col-sm-12 col-md-6 col-lg-5 col-form-label">Gross Weight(ea)</label>
+                        <div class="col-6 col-sm-12 col-md-6 col-lg-4">
+                           <label for="">0.000 KG | 0.001 G</label>
+                        </div>
+                     </div>
+                     <div class="mb-1 row">
+                        <label for="staticEmail" class="col-6 col-sm-12 col-md-6 col-lg-5 col-form-label">Gross Weight(car)</label>
+                        <div class="col-6 col-sm-12 col-md-6">
+                           <label for="">0.000 KG | 0.001 G</label>
+                        </div>
+                     </div>
+                     <div class="mb-1 row">
+                        <label for="staticEmail" class="col-6 col-sm-12 col-md-6 col-lg-5 col-form-label">Cont.Qty 45ft(241 ft)</label>
+                        <div class="col-6 col-sm-12 col-md-6 col-lg-7">
+                           <label for="">-</label>
+                        </div>
+                     </div>
+                     <div class="mb-1 row">
+                        <label for="staticEmail" class="col-6 col-sm-12 col-md-6 col-lg-5 col-form-label">Cont.Qty 40ft(2350 ft)</label>
+                        <div class="col-6 col-sm-12 col-md-6">
+                           <label for="">-</label>
+                        </div>
+                     </div>
+                     <div class="mb-1 row">
+                        <label for="staticEmail" class="col-6 col-sm-12 col-md-6 col-lg-5 col-form-label">Cont.Qty 40ft(2000 ft)</label>
+                        <div class="col-6 col-sm-12 col-md-6">
+                           <label for="">-</label>
+                        </div>
+                     </div>
+                     <div class="mb-1 row">
+                        <label for="staticEmail" class="col-6 col-sm-12 col-md-6 col-lg-5 col-form-label">Cont.Qty 20ft(1000 ft)</label>
+                        <div class="col-6 col-sm-12 col-md-6">
+                           <label for="">-</label>
+                        </div>
+                     </div>
+                     <div class="mb-1 row">
+                        <label for="staticEmail" class="col-6 col-sm-12 col-md-6 col-lg-5 col-form-label">Dimensions Outer</label>
+                        <div class="col-6 col-sm-12 col-md-6">
+                           <label for="">28.9 X 42.2 X 27.9 Cms</label>
+                        </div>
+                     </div>
+                     <div class="mb-1 row">
+                        <label for="staticEmail" class="col-6 col-sm-12 col-md-6 col-lg-5 col-form-label">Dimensions Inner</label>
+                        <div class="col-6 col-sm-12 col-md-6">
+                           <label for="">0.001 X 0.001 X 0.001 Cms</label>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-1 .d-none .d-sm-block"></div>
+         </div>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+         <div class="article-1">
+            <br />
+            <b>Article Hierarchy</b><br />
+            <div class="mb-1 row">
+               <label for="staticEmail" class="col-md-6 col-sm-12 col-lg-3 col-form-label">Retail UK/ROI</label>
+               <div class="col-md-6">
+                  <select name="cars" id="cars" disabled class="art-1">
+                     <option value="volvo">Arts&Creativity</option>
+                  </select>
+                  <select name="cars" id="cars" disabled>
+                     <option value="volvo">Board Games</option>
+                  </select>
+                  <select name="cars" id="cars" disabled class="art-1">
+                     <option value="volvo">Poker</option>
+                  </select>
+               </div>
+            </div>
+            <div class="mb-1 row">
+               <label for="staticEmail" class="col-12 col-md-6 col-lg-3 col-form-label">Retail CE</label>
+               <div class="col-12 col-md-6">
+                  <select name="cars" id="cars" disabled class="art-2">
+                     <option value="volvo">Arts&Creativity</option>
+                  </select>
+                  <select name="cars" id="cars" disabled>
+                     <option value="volvo">Board Game</option>
+                  </select>
+                  <select name="cars" id="cars" disabled>
+                     <option value="volvo">Loc CH</option>
+                  </select>
+               </div>
+            </div>
+            <div class="mb-1 row ">
+               <label for="staticEmail" class="col-4 col-md-6 col-lg-3 col-form-label">Gender</label>
+               <div class="col-8 col-md-6 my-auto">
+                  <input class="article" type="text" disabled placeholder="[]" />
+               </div>
+            </div>
+            <div class="mb-1 row">
+               <label for="staticEmail" class="col-4 col-md-6 col-lg-3 col-form-label">Age Group</label>
+               <div class="col-8 col-md-6">
+                  <input class="article" type="text" disabled placeholder="[]" />
+               </div>
+            </div>
+            <div class="mb-1 row">
+               <label for="staticEmail" class="col-4 col-sm-2 col-md-6 col-lg-3 col-form-label">Brand</label>
+               <div class="col-8 col-md-6">
+                  <input class="w-25" disabled placeholder="-" />
+                  <input class="w-25" disabled placeholder="-" />
+                  <input class="w-25" disabled placeholder="-" /> Cms
+               </div>
+            </div>
+            <div class="mb-1 row">
+               <label for="staticEmail" class="col-4 col-sm-2 col-md-6 col-lg-3 col-form-label">Battery</label>
+               <div class="col-8 col-md-6">
+                  <input class="article w-25" type="text" disabled placeholder="" />
+                  <input class="article w-25" type="text" disabled placeholder="" />
+                  <input class="article w-25" type="text" disabled placeholder="" /> Cms
+               </div>
+            </div>
+            <div class="mb-1 row">
+               <label for="staticEmail" class="col-4 col-sm-4 col-md-6 col-lg-3 col-form-label">WEE</label>
+               <div class="col-8 col-md-6">
+                  <input class="w-25" disabled placeholder="-" />
+                  <input class="w-25" disabled placeholder="-" />
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <br />
+         <b>Purchase Info Record</b>
+         <div class="wrapper">
+            <br />
+            <table class="table table-bordered table-striped table-hover">
+               <thead>
+                  <tr>
+                     <th class="first-col">Vendor Name <span></span></th>
+                     <th class="">(10639) - LANALARD TOYS LTD</th>
+                     <th class="">(14041)null</th>
+                     <th class="">(1052)-Mattel brands - FOB</th>
+                     <th class="">(10483) - HASBRO DIRECT -USD /..</th>
+                     <th class="">(17480) - null</th>
+                     <th class="">(10042) - APEX BABY PRODUCT</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td class="first-col">Regular Vendor (Sap)</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">Regular Vendor (PIR)</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">PIR NO</td>
+                     <td>5300188994</td>
+                     <td>5300188995</td>
+                     <td>5300188995</td>
+                     <td>5300188996</td>
+                     <td>5300188997</td>
+                     <td>5300188998</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">Net Price</td>
+                     <td>$23.1</td>
+                     <td>$23.1</td>
+                     <td>$34</td>
+                     <td>$34</td>
+                     <td>$34</td>
+                     <td>$34</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">Frieght rate(UK)</td>
+                     <td>£0</td>
+                     <td>£0</td>
+                     <td>0.00</td>
+                     <td>£0</td>
+                     <td>£0</td>
+                     <td>£0</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">Duty Rate(UK)</td>
+                     <td>$0</td>
+                     <td>$0</td>
+                     <td>$0.00</td>
+                     <td>$0</td>
+                     <td>$0</td>
+                     <td>$0</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">Duty Rate(ROI)</td>
+                     <td>$0.000</td>
+                     <td>$0.000</td>
+                     <td>$0.00</td>
+                     <td>$0.000</td>
+                     <td>$0.000</td>
+                     <td>$0.000</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">Duty Rate(UK)</td>
+                     <td>$0</td>
+                     <td>$0</td>
+                     <td>$0.00</td>
+                     <td>$0</td>
+                     <td>$0</td>
+                     <td>$0</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">Duty Rate(ROI)</td>
+                     <td>$0.000</td>
+                     <td>$0.000</td>
+                     <td>$0.00</td>
+                     <td>$0.000</td>
+                     <td>$0.000</td>
+                     <td>$0.000</td>
+                  </tr>
+                  <tr>
+                     <td class="first-col">Country of Origin</td>
+                     <td>china</td>
+                     <td>china</td>
+                     <td>china</td>
+                     <td>china</td>
+                     <td>china</td>
+                     <td>china</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
+</html>
